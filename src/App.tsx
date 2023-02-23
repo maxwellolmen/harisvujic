@@ -78,7 +78,7 @@ function App() {
       <center>
         <label>Name: </label>
         <input type="text" id="name" name="name" onChange={updateName}/>
-        <button onClick={GetBitches}>
+        <button id="getgrass" onClick={GetBitches}>
           Touch Grass
         </button>
       </center>
